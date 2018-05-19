@@ -3,4 +3,4 @@ project(EventSimulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(EventSimulator main.cpp)
+add_executable(EventSimulator main.cpp Event.cpp Event.h)
